@@ -1,11 +1,12 @@
-import logo from './logo.svg'
 import './App.css'
-import PortfolioMain from './pages'
+import Header from './components/header/Header'
+import Main from './components/main/Main'
 
 function App() {
   return (
     <div className='App'>
-      <PortfolioMain />
+      <Header />
+      <Main />
     </div>
   )
 }
